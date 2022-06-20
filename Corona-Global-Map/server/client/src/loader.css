@@ -1,0 +1,21 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle,
+    #007d9f,
+    #026e8d,
+    #025f7c,
+    #02506b,
+    #01425a,
+    #05384e,
+    #072f42,
+    #072637,
+    #091f2d,
+    #0a1924,
+    #06121b,
+    #000811
+  );
+}

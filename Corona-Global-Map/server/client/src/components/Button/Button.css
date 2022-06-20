@@ -1,0 +1,148 @@
+.login_button {
+  display: flex;
+  position: absolute;
+  z-index: 4000;
+  right: 2%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #004564;
+  color: white;
+  border: none;
+
+  border-radius: 10px;
+}
+
+.login_button:hover {
+  background-color: #00567d;
+  border: 1px solid white;
+}
+
+.login_button:active {
+  background-color: #004564;
+}
+
+.dropdown button {
+  color: white;
+}
+
+.small_modal {
+  position: absolute;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  z-index: 9999;
+  top: 40%;
+  left: 43%;
+  min-width: 15%;
+  border-radius: 10px;
+  background-color: rgba(1, 66, 90, 0.8);
+  border: 1px solid #12b6ff;
+
+  padding: 10px;
+  display: flex;
+
+  animation-name: grow;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.small_modal_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 7000;
+}
+
+.small_modal button {
+  height: 3em;
+  width: 7em;
+  border: none;
+  background-color: #005b82;
+  margin: 10px;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+}
+
+.small_modal button:hover {
+  background-color: #016996;
+}
+
+.small_modal button:active {
+  background-color: #0078ab;
+}
+
+.dropdown {
+  display: flex !important ;
+  position: absolute !important;
+  z-index: 4000 !important;
+  right: 2% !important;
+  padding: 10px !important;
+  margin-top: 0px !important;
+  border: none !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.dropdown button {
+  display: flex;
+  position: absolute;
+  z-index: 4000;
+  right: 2%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #004564;
+  color: white;
+  border: none;
+  top: 0%;
+  border-radius: 10px;
+}
+
+.dropdown button:hover {
+  background-color: #00567d;
+  border: 1px solid white;
+}
+
+.dropdown button:active {
+  background-color: #00567d !important;
+  border: 1px solid white;
+}
+
+.dropdown button:focus {
+  box-shadow: none !important;
+}
+
+.dropdown .dropdown-item {
+  color: rgb(0, 32, 34) !important;
+  padding: 10px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.dropdown .dropdown-item:active {
+  background-color: rgb(0, 78, 106) !important;
+  color: white !important;
+}
+
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: white !important;
+  background-color: #00567d !important;
+  border: 1px solid white !important;
+}
+.dropdown-menu.show {
+  min-width: 9rem;
+  background-color: white;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .small_modal {
+    left: 30%;
+  }
+}

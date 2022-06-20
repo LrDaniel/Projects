@@ -1,0 +1,99 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+  top: 20%;
+  left: 35%;
+  width: 30%;
+  max-height: 70%;
+  border-radius: 10px;
+  background-color: rgba(1, 66, 90, 0.8);
+  border: 1px solid #12b6ff;
+  color: white;
+  justify-content: space-around;
+  animation-name: grow;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.exit_reg {
+  width: 30px;
+  background-color: transparent;
+  margin-left: auto;
+  border: 0px;
+  font-size: 20px;
+  border-radius: 50%;
+  color: #96d8ff;
+}
+
+.exit_reg:hover {
+  color: white;
+}
+
+.register_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 7000;
+}
+
+.reg_btn {
+  min-height: 50px;
+  width: 100px;
+  border: none;
+  background-color: #005b82;
+  margin: 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+.reg_btn:hover {
+  background-color: #016996;
+}
+
+.reg_btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(250, 110, 110, 0.24);
+}
+
+.register input {
+  display: flex;
+  border: none;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.register label {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.register button {
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 15px;
+}
+
+.reg_status {
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .register {
+    width: 65%;
+    left: 20%;
+  }
+  .register input {
+    width: 80%;
+  }
+}

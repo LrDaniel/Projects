@@ -1,0 +1,17 @@
+.Sorter {
+  position: absolute;
+  top: 20%;
+  right: 25%;
+}
+
+.Sorter label {
+  position: relative;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.Sorter select {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}

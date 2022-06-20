@@ -1,0 +1,33 @@
+.coinCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 4px 75px 10px rgb(255, 246, 235, 0.5);
+  border-radius: 40px;
+  position: absolute;
+  left: 38%;
+  top: 22%;
+  font-size: 30px;
+  padding: 20px;
+  background-color: rgb(70, 70, 70);
+  font-family: "Merriweather", serif;
+}
+
+.coinCard img {
+  margin: 10% 40%;
+
+  width: 20%;
+
+  box-shadow: 0px 4px 75px 10px rgb(255, 172, 70);
+  border-radius: 50%;
+}
+
+.coinCard p {
+  padding: 10px;
+}
+
+.coinCard img:hover {
+  box-shadow: 0px 4px 75px 10px rgb(255, 172, 70);
+  transform: scale(1.4);
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+
+.searchUpdate {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.searchUpdate input {
+  position: absolute;
+  padding: 10px;
+  border-radius: 100vmax;
+  top: 20.5%;
+  left: 25%;
+  border: none;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.searchUpdate svg {
+  font-size: 40px;
+  margin-top: 0px;
+  cursor: pointer;
+  color: #f07900;
+}
+
+.searchUpdate svg:hover {
+  color: #f07900;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.searchUpdate input:active {
+  color: #f07900;
+  border-color: 1px solid #f07900;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

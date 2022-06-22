@@ -32,7 +32,7 @@ function App() {
   }, []);
 
   return (
-    <div className={toggle ? "App containerDark" : "App containerLight"}>
+    <div className="App">
       <Routes>
         <Route
           path="/info"

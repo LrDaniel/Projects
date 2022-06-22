@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
-.App.containerDark {
+
+.containerDark {
+  display: flex;
   background-image: radial-gradient(
     circle,
     #232323,
@@ -9,16 +11,14 @@
     #000000
   );
   background-size: cover;
-  height: 100vh;
-}
-.containerDark {
-  display: flex;
   font-family: "Space Mono", monospace;
   color: white;
   justify-content: center;
   text-align: center;
 }
-.App.containerLight {
+
+.containerLight {
+  display: flex;
   background-image: radial-gradient(
     circle,
     #ffffff,
@@ -27,11 +27,7 @@
     #cacaca,
     #b9b9b9
   );
-  background-size: cover;
   height: 100vh;
-}
-.containerLight {
-  display: flex;
   font-family: "Space Mono", monospace;
   color: rgb(30, 30, 30);
   justify-content: center;
@@ -75,8 +71,8 @@
 }
 
 @media (max-width: 1500px) {
-  .App.containerDark,
-  .App.containerLight {
+  .containerDark,
+  .containerLight {
     height: auto;
   }
 }

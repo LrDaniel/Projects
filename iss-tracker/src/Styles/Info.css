@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+.containerDark {
+  display: flex;
+  background-image: radial-gradient(
+    circle,
+    #232323,
+    #1c1c1c,
+    #151515,
+    #0c0c0c,
+    #000000
+  );
+  background-size: cover;
+  font-family: "Space Mono", monospace;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.containerLight {
+  display: flex;
+  background-image: radial-gradient(
+    circle,
+    #ffffff,
+    #ededed,
+    #dbdbdb,
+    #cacaca,
+    #b9b9b9
+  );
+  height: 100vh;
+  font-family: "Space Mono", monospace;
+  color: rgb(30, 30, 30);
+  justify-content: center;
+  text-align: center;
+}
+
+.desc {
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.nameDark {
+  background-color: rgb(61, 61, 61);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nameLight {
+  background-color: rgb(208, 207, 207);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.backbtn {
+  margin-top: 50px;
+  height: 100px;
+}
+
+.toggle {
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+@media (max-width: 1500px) {
+  .containerDark,
+  .containerLight {
+    height: auto;
+  }
+}

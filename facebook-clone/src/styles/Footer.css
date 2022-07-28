@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  color: rgb(141, 141, 141);
+}
+
+.upper-foot button {
+  margin-left: 10px;
+  font-size: 18px;
+  width: 30px;
+  height: px;
+}
+
+.lang,
+.links {
+  margin-left: 20px;
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+}
+
+.lang:hover,
+.links:hover {
+  text-decoration: underline;
+}

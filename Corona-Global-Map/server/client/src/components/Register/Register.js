@@ -29,6 +29,10 @@ const Register = () => {
     }).then((res) => {
       if (res.data.created) {
         setRegStatus(res.data.created);
+        setTimeout(() => {
+          setLogin(true);
+          setReg(false);
+        }, 1200);
       } else {
         setRegStatus(res.data.error);
       }
@@ -38,10 +42,6 @@ const Register = () => {
   const checkPass = (e) => {
     if (confirmPass === regPass) {
       register();
-      setTimeout(() => {
-        setLogin(true);
-        setReg(false);
-      }, 1200);
     } else {
       setRegStatus("Passwords don't match");
     }

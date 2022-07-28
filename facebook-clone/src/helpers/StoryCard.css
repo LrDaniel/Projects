@@ -1,0 +1,43 @@
+.story-card {
+  position: relative;
+  height: 250px;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.story-user-img img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  padding: 4px;
+  border-radius: 100%;
+  background-color: #1876f2;
+  position: absolute;
+  margin: 10px;
+}
+
+.story-user-img video {
+  position: absolute;
+}
+
+.story-user-preview img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.story-user-name p {
+  position: absolute;
+  bottom: 1%;
+  width: 80%;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+}
+
+.story-user-preview img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}

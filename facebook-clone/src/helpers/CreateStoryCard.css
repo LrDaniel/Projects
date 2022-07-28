@@ -1,0 +1,47 @@
+.c-story-card {
+  position: relative;
+
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.c-story-card svg {
+  font-size: 40px;
+  position: absolute;
+  color: #1876f2;
+  padding: 3px;
+  background-color: white;
+  border-radius: 100%;
+  top: 70%;
+  left: 35%;
+}
+
+.upper-c-story-card img {
+  height: 210px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.upper-c-story-card {
+  height: 210px;
+  width: 150px;
+  overflow: hidden;
+}
+
+.bottom-c-story-card p {
+  margin-left: 33px;
+  margin-top: 15px;
+
+  font-weight: bold;
+}
+
+.c-story-card:hover {
+  background-color: rgb(234, 234, 234);
+  opacity: 0.9;
+}
+
+.upper-c-story-card img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}

@@ -1,0 +1,23 @@
+.top-leftside {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.top-leftside h2 {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.top-leftside svg {
+  margin-right: 30px;
+  font-size: 25px;
+  background-color: #e4e6eb;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.top-leftside svg:hover {
+  background-color: #d7dade;
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.reply-container {
+  display: flex;
+  align-items: center;
+}
+
+.reply-container img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-bottom: 60px;
+  object-fit: cover;
+}
+
+.reply-container img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.reply {
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.bubble {
+  background-color: #f0f2f5;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  padding: 0.1px 10px;
+}
+
+.bubble h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bubble p {
+  font-size: 15px;
+}
+.under-comment {
+  display: flex;
+}
+
+.under-comment p {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.under-comment-p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.under-comment .time {
+  font-weight: normal;
+}

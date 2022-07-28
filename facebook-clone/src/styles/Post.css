@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+.post-container {
+  position: relative;
+  width: 780px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.profilepic-post {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+}
+
+.top-post {
+  display: flex;
+  align-items: center;
+}
+
+.top-post img {
+  object-fit: cover;
+}
+
+.name-date {
+  line-height: 0.2;
+  margin-left: 10px;
+}
+
+.name-date p {
+  font-size: 14px;
+  color: rgb(130, 130, 130);
+}
+
+.caption {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pic-post {
+  width: 100%;
+}
+
+.like-comment-send-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.like,
+.comment,
+.send {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  justify-content: center;
+  border-radius: 5px;
+  color: gray;
+}
+
+.like p,
+.comment p,
+.send p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  line-height: 0;
+  font-size: 18px;
+}
+
+.like:hover,
+.comment:hover,
+.send:hover {
+  cursor: pointer;
+  background-color: #f0f2f5;
+}
+
+.like-comment-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.like-comment-left {
+  display: flex;
+  align-items: center;
+}
+
+.like-comment-left p {
+  margin-left: 5px;
+  color: gray;
+}
+.like-comment-right p {
+  color: gray;
+}
+
+.like-comment-left svg {
+  color: #216ddb;
+}
+
+.like-comment-left:hover {
+  cursor: pointer;
+}
+
+.like-comment-right p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+}
+.answer form {
+  width: 93%;
+}
+
+.answer img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+
+  border-radius: 100%;
+}
+
+.answer-input {
+  height: 35px;
+  border-radius: 30px;
+  margin-left: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  background-color: #f0f2f5;
+  z-index: 100;
+}
+.answer-input::placeholder {
+  padding-left: 10px;
+}
+
+.answer-input:focus {
+  outline: none;
+}
+
+.tranparent-sub {
+  display: none;
+}
+
+hr {
+  width: 50px;
+}

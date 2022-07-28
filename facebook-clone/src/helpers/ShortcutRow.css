@@ -1,0 +1,16 @@
+.shortcut {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.shortcut img {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+.shortcut p {
+  margin-left: 10px;
+}

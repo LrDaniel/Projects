@@ -1,0 +1,57 @@
+.left-side-watch {
+  position: fixed;
+  background-color: white;
+  width: 18%;
+  padding-top: 70px;
+  height: 100vh;
+  line-height: 0;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.search-movies {
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  height: 30px;
+}
+
+.search-movies svg {
+  margin-left: 5px;
+  color: gray;
+}
+
+.search-movies input {
+  background-color: #f0f2f5;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+}
+
+.search-movies input:focus {
+  outline: none;
+  margin-left: 10px;
+}
+
+.search-movies input::placeholder {
+  margin-left: 10px;
+}
+
+.blue {
+  background-color: #f0f2f5;
+  display: flex;
+  margin-top: 10px;
+}
+
+.blue:hover {
+  background-color: #f0f2f5; 
+  display: flex;
+  margin-top: 10px;
+}
+.blue svg {
+  color: blue;
+}

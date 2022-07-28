@@ -1,0 +1,53 @@
+.LeftSideBarRow {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.LeftSideBarRow img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  object-fit: cover;
+}
+
+.LeftSideBarRow:hover {
+  background-color: rgb(223, 222, 222);
+}
+
+.LeftSideBarRow span {
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+.LeftSideBarRow svg {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: inline-flex;
+  background-color: rgb(226, 226, 226);
+}
+
+.collapsed {
+  display: none;
+}
+
+.expanded {
+  animation-duration: 1s;
+  animation-name: in;
+}
+
+@keyframes in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

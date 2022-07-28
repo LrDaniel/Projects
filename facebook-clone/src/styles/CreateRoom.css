@@ -1,0 +1,47 @@
+.room-container {
+  display: flex;
+  position: relative;
+  width: 790px;
+
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-btn {
+  border: 4px solid #e7f3ff;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.create-btn p {
+  margin-left: 5px;
+  color: #216edb;
+}
+
+.create-btn svg {
+  font-size: 40px;
+  color: #a84eb7;
+}
+
+.create-btn:hover {
+  color: #a84eb7;
+  border: 4px solid #e0effe;
+  background-color: #edf6ff;
+  cursor: pointer;
+}
+
+.room-container img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+
+  border-radius: 100%;
+  margin-left: 15px;
+}

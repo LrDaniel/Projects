@@ -1,0 +1,20 @@
+.user-content {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.user-content img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.user-content:hover {
+  background-color: rgb(223, 222, 222);
+}

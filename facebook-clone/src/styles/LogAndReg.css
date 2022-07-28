@@ -1,0 +1,16 @@
+.log-container {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.left-half {
+  margin-bottom: 20%;
+}
+
+.right-half {
+  margin-bottom: 10%;
+}

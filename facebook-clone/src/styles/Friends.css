@@ -1,0 +1,14 @@
+.friends-container {
+  animation-duration: 0.3s;
+  animation-name: in;
+}
+
+@keyframes in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
